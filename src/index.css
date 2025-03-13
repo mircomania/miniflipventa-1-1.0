@@ -1,0 +1,1144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff6007;
+    --secondary-color: #be591e;
+    --background-color: #f3efea;
+    --text-color: #363636;
+    --text-color-2: #403f3f;
+    --shadow-color: #0000004d;
+}
+
+body {
+    background-image: url('/src/assets/images/fondo-sections.webp');
+}
+
+/* -------------------------------------------------------------------------- FUENTES */
+
+.bebas-text {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+}
+
+.bold-text {
+    font-family: 'Montserrat', serif;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+    font-weight: 800;
+}
+
+.light-text {
+    font-family: 'Montserrat', serif;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+    font-weight: 400;
+}
+
+/* -------------------------------------------------------------------------- NAVBAR */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-shadow: 0 4px 10px var(--shadow-color);
+    width: 100%;
+    z-index: 99;
+}
+
+.logo-navbar {
+    height: 60px;
+    margin-top: 4px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.logo-navbar-2 {
+    height: 60px;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* -------------------------------------------------------------------------- LANDING PAGE */
+
+.landing-container {
+    overflow: hidden;
+}
+
+/* ---------------------------------------------- SECTION 1 LP */
+
+.section-1-lp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: 0 4px 10px var(--shadow-color);
+    color: var(--background-color);
+    border-radius: 0 0 50px 50px;
+}
+
+.section-1-lp-header {
+    text-align: start;
+    width: 320px;
+}
+
+.section-1-lp-header h1 {
+    padding-top: 20px;
+    font-size: 70px;
+    line-height: 0.9;
+}
+
+.section-1-lp-header h2 {
+    font-size: 16px;
+}
+
+.section-1-lp-content-1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    padding: 20px 10px;
+}
+
+.section-1-lp-content-1 p {
+    margin-right: 100px;
+}
+
+.imagen-mascota {
+    position: absolute;
+    top: -200%;
+    left: 60%;
+}
+
+.imagen-mascota img {
+    width: 130px;
+    filter: drop-shadow(0px 0px 40px var(--background-color));
+    user-select: none;
+    pointer-events: none;
+}
+
+.section-1-lp-content-2 {
+    background-color: var(--background-color);
+    box-shadow: -4px 0 10px var(--shadow-color);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.section-1-lp-content-2 h3 {
+    font-size: 16px;
+    padding-top: 10px;
+    color: var(--text-color);
+}
+
+.section-1-lp-content-2-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-lp-content-2-cards img {
+    width: 60px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.section-1-lp-content-2-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: -4px 0 10px var(--shadow-color);
+    color: var(--background-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 10px 0px;
+    font-size: 16px;
+    width: 310px;
+}
+
+.section-1-lp-cards-text {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 310px;
+    height: 80px;
+    padding: 0px 10px;
+    color: var(--text-color);
+}
+
+.section-1-lp-content-2-button button {
+    margin: 20px 0;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 5px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: var(--background-color);
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: -4px 0 10px var(--shadow-color);
+}
+
+/* ---------------------------------------------- SECTION 2 LP */
+
+.section-2-lp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2-lp-header {
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section-2-lp-header h2 {
+    font-size: 29px;
+}
+
+.section-2-lp-header h3 {
+    font-size: 20px;
+}
+
+.section-2-lp-content-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-color);
+    width: 360px;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.section-2-lp-content-1 div {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+}
+
+.section-2-lp-content-1 div:last-child {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.section-2-lp-content-1 img {
+    width: 100px;
+    padding-top: 10px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.section-2-lp-container hr {
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    height: 2px;
+    background-color: var(--text-color);
+    margin: 10px 0;
+}
+
+/* ---------------------------------------------- SECTION 3 LP */
+
+.section-3-lp-header {
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px 0;
+    padding-bottom: 30px;
+}
+
+.section-3-lp-header h2 {
+    font-size: 35px;
+}
+
+.section-3-lp-header h3 {
+    font-size: 16px;
+}
+
+.section-3-lp-container {
+    padding-bottom: 80px;
+}
+
+.section-3-lp-content-1 img {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* ------------------------------- FORM */
+
+.form {
+    width: 320px;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.campos-obligatorios {
+    text-align: end;
+}
+
+.campos-obligatorios p {
+    margin: 0;
+}
+
+.campo-precalificar-form select,
+.campo-precalificar-form input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.campo-precalificar-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    background-color: var(--background-color);
+    box-shadow: 2px 2px 10px 2px var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.form-error,
+.text-danger {
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.text-danger {
+    margin-top: -16px;
+}
+
+.text-danger-2 {
+    margin: 0;
+    margin-bottom: -15px;
+}
+
+.form-error {
+    position: absolute;
+}
+
+.form-error p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.content-envio {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.boton-form {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 10px;
+    color: var(--background-color);
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.spinner-container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------------------------------------------------------- POLITICAS PAGE */
+
+.politicas-container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.politicas-titulo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.politicas-titulo h1 {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.politicas-titulo h2,
+.politicas-titulo h3 {
+    font-size: 20px;
+}
+
+.politicas-contenido {
+    padding-bottom: 100px;
+    text-align: justify;
+}
+
+.politicas-contenido p {
+    padding-bottom: 20px;
+}
+
+/* -------------------------------------------------------------------------- FOOTER */
+
+.footer {
+    position: relative;
+    height: 80px;
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: 0px -4px 10px var(--shadow-color);
+    color: var(--background-color);
+    border-radius: 20px 20px 0 0;
+}
+
+.contenido-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+    padding-top: 15px;
+}
+
+.img-logo-footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    pointer-events: none;
+    top: -70%;
+}
+
+.img-logo-footer img {
+    height: 120px;
+    filter: drop-shadow(0px 0px 100px var(--text-color));
+    pointer-events: none;
+    user-select: none;
+}
+
+.poli-copy {
+    padding-top: 5px;
+}
+
+.poli-copy p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.poli-copy a {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--text-color);
+}
+
+/* -------------------------------------------------------------------------- ERROR PAGE */
+
+.section-1-error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.section-1-error-page h1,
+.section-1-error-page h2 {
+    margin: 0;
+    user-select: none;
+}
+
+.section-1-error-page h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-1-error-page h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        width: 520px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 105px;
+        line-height: 0.8;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 25px;
+    }
+
+    .section-1-lp-content-1 {
+        padding-bottom: 30px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 250px;
+        font-size: 20px;
+    }
+
+    .imagen-mascota {
+        top: -195%;
+        left: 65%;
+    }
+
+    .imagen-mascota img {
+        width: 160px;
+        filter: drop-shadow(0px 0px 60px var(--background-color));
+    }
+
+    .section-1-lp-content-2 {
+        padding: 5px 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 20px;
+    }
+
+    .section-1-lp-content-2-card {
+        padding: 5px 70px;
+        font-size: 20px;
+        width: 460px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 450px;
+        height: 70px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 25px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header {
+        padding: 30px 0;
+    }
+
+    .section-2-lp-header h2 {
+        font-size: 40px;
+    }
+
+    .section-2-lp-header h3 {
+        font-size: 25px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 500px;
+        gap: 15px;
+    }
+
+    .section-2-lp-content-1 div {
+        flex: 1 1 calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px);
+    }
+
+    .section-2-lp-content-1 div:last-child {
+        flex-basis: calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px);
+    }
+
+    .section-2-lp-content-1 img {
+        width: 130px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-header {
+        padding: 20px 0;
+        padding-bottom: 30px;
+    }
+
+    .section-3-lp-header h2 {
+        font-size: 40px;
+    }
+
+    .section-3-lp-header h3 {
+        font-size: 18px;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 500px;
+    }
+
+    .boton-form {
+        padding: 6px 20px;
+        font-size: 16px;
+    }
+
+    /* -------------------------------------------------------------------------- POLITICAS PAGE */
+
+    .politicas-container {
+        width: 500px;
+    }
+
+    .politicas-titulo h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        width: 680px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 137px;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 32px;
+    }
+
+    .section-1-lp-content-1 {
+        padding-bottom: 50px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 340px;
+        font-size: 25px;
+    }
+
+    .imagen-mascota {
+        top: -195%;
+        left: 65%;
+    }
+
+    .imagen-mascota img {
+        width: 210px;
+        filter: drop-shadow(0px 0px 80px var(--background-color));
+    }
+
+    .section-1-lp-content-2 {
+        padding: 5px 20px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 25px;
+    }
+
+    .section-1-lp-content-2-card {
+        padding: 5px 110px;
+        font-size: 25px;
+        width: 640px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 630px;
+        height: 50px;
+        padding: 0px 20px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 80px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2,
+    .section-3-lp-header h2 {
+        font-size: 50px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 650px;
+    }
+
+    .section-2-lp-content-1 img {
+        width: 140px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-header {
+        padding-bottom: 40px;
+    }
+
+    .section-3-lp-header h3 {
+        font-size: 24px;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 650px;
+    }
+
+    .boton-form {
+        padding: 6px 30px;
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------------------------------- POLITICAS PAGE */
+
+    .politicas-container {
+        width: 650px;
+    }
+
+    .politicas-titulo h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        width: 600px;
+        margin-right: 190px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 140px;
+        padding-top: 30px;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 32px;
+    }
+
+    .section-1-lp-content-1 {
+        padding-bottom: 20px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 450px;
+    }
+
+    .imagen-mascota {
+        top: -285%;
+        left: 70%;
+    }
+
+    .imagen-mascota img {
+        width: 210px;
+        filter: drop-shadow(0px 0px 100px var(--background-color));
+    }
+
+    .section-1-lp-content-2-cards {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .section-1-lp-content-2-card {
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px 10px;
+        font-size: 16px;
+        width: 160px;
+    }
+
+    .section-1-lp-cards-text {
+        position: absolute;
+        width: 900px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .texto-activo {
+        padding-bottom: 30px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 60px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2,
+    .section-3-lp-header h2 {
+        font-size: 60px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 800px;
+        font-size: 20px;
+    }
+
+    .section-2-lp-content-1 img {
+        width: 180px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .section-3-lp-content-1 img {
+        display: block;
+        width: 180px;
+        margin: 0 auto;
+        filter: drop-shadow(0px 0px 100px var(--text-color));
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 400px;
+    }
+
+    /* -------------------------------------------------------------------------- POLITICAS PAGE */
+
+    .politicas-container {
+        width: 800px;
+    }
+
+    .politicas-titulo {
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        margin-right: 180px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 130px;
+        padding-top: 20px;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 30px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 510px;
+        font-size: 20px;
+    }
+
+    .imagen-mascota {
+        top: -275%;
+        left: 75%;
+    }
+
+    .imagen-mascota img {
+        width: 180px;
+    }
+
+    .section-1-lp-content-2 {
+        padding: 5px 40px;
+    }
+
+    .section-1-lp-content-2-card {
+        font-size: 18px;
+        width: 177px;
+    }
+
+    .section-1-lp-cards-text {
+        font-size: 18px;
+    }
+
+    .texto-activo {
+        padding-bottom: 40px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2,
+    .section-3-lp-header h2 {
+        font-size: 70px;
+    }
+
+    .section-2-lp-header h3,
+    .section-3-lp-header h3 {
+        font-size: 30px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 1000px;
+        font-size: 25px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .section-3-lp-header {
+        padding-bottom: 50px;
+    }
+
+    .section-3-lp-content-1 img {
+        width: 200px;
+    }
+
+    /* -------------------------------------------------------------------------- POLITICAS PAGE */
+
+    .politicas-container {
+        width: 1000px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .contenido-footer {
+        width: 380px;
+    }
+
+    .poli-copy a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        margin-right: 370px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 160px;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 40px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 620px;
+        font-size: 25px;
+    }
+
+    .imagen-mascota {
+        top: -300%;
+        left: 75%;
+    }
+
+    .imagen-mascota img {
+        width: 220px;
+    }
+
+    .section-1-lp-content-2 {
+        margin-top: 20px;
+        padding: 5px 50px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 30px;
+    }
+
+    .section-1-lp-content-2-card {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .texto-activo {
+        padding-bottom: 40px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 80px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 30px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2,
+    .section-3-lp-header h2 {
+        font-size: 80px;
+    }
+
+    .section-2-lp-header h3,
+    .section-3-lp-header h3 {
+        font-size: 40px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 1200px;
+        font-size: 30px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 600px;
+    }
+
+    /* -------------------------------------------------------------------------- POLITICAS PAGE */
+
+    .politicas-container {
+        width: 1200px;
+    }
+
+    .politicas-titulo h1 {
+        font-size: 60px;
+    }
+
+    .politicas-titulo h2,
+    .politicas-titulo h3 {
+        font-size: 30px;
+    }
+
+    .politicas-contenido p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .contenido-footer {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1700px) {
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        margin-right: 420px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 180px;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 600px;
+        font-size: 30px;
+    }
+
+    .imagen-mascota {
+        top: -370%;
+        left: 70%;
+    }
+
+    .imagen-mascota img {
+        width: 300px;
+    }
+
+    .section-1-lp-content-2 {
+        margin-top: 0px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 35px;
+    }
+
+    .section-1-lp-cards-text {
+        font-size: 20px;
+    }
+
+    .texto-activo {
+        padding-bottom: 50px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 40px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2,
+    .section-3-lp-header h2 {
+        font-size: 90px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .section-3-lp-content-1 img {
+        width: 250px;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form-control {
+        padding: 10px 0;
+    }
+
+    .form-error p {
+        font-size: 16px;
+    }
+
+    .boton-form {
+        padding: 6px 50px;
+        font-size: 24px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .contenido-footer {
+        width: 540px;
+    }
+}
