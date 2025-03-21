@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import LogoNavbar from '../../assets/images/logo-text.webp';
+import LogoNavbar from '../../assets/images/logo-venta-1.webp';
 import LogoNavbar2 from '../../assets/images/logo-flip.webp';
 
 export const NavBar = () => {

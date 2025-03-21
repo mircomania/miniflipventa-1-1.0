@@ -18,7 +18,7 @@ const routes = [
 
 function App() {
     return (
-        <BrowserRouter basename="/miniflipventa-1-1.0">
+        <BrowserRouter>
             <ScrollToTop />
             <NavBar />
 

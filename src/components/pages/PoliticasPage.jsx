@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom';
 
 const FLIP_LINK = (
-    <NavLink to="/" title="ir a www.compramoscasas.com.mx">
-        compramoscasas
+    <NavLink to="/" title="ir a www.casasalaventa.com.mx">
+        casasalaventa
     </NavLink>
 );
 
@@ -11,7 +11,7 @@ const PoliticasPage = () => {
         <main className="politicas-container">
             <header className="bold-text politicas-titulo">
                 <h1>Política de Privacidad</h1>
-                <h2>compramoscasas.com.mx</h2>
+                <h2>casasalaventa.com.mx</h2>
                 <h3>[27/02/25]</h3>
             </header>
 
