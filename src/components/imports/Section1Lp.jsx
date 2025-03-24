@@ -27,7 +27,7 @@ export const Section1Lp = () => {
                 </div>
 
                 <div className="imagen-mascota">
-                    <img src={mascota} alt="Personaje de Compramos Casas sosteniendo la llave de la Casa que quiere Vender" />
+                    <img src={mascota} alt="Personaje de Compramos Casas apuntando a tu proximo hogar" />
                 </div>
             </div>
 
