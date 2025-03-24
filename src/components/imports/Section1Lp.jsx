@@ -61,7 +61,7 @@ export const Section1Lp = () => {
                         onClick={() => document.querySelector('#section-3-lp')?.scrollIntoView({ behavior: 'smooth' })}
                         title="Haz clic para cotizar con un agente"
                     >
-                        VENDE TU CASA
+                        COMPRA TU CASA
                     </button>
                 </div>
             </div>

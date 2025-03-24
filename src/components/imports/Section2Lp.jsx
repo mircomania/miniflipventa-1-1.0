@@ -22,7 +22,7 @@ export const Section2Lp = () => {
                 </div>
 
                 <div>
-                    <p className="light-text">3.- Conocemos tu casa</p>
+                    <p className="light-text">3.- Conoce tu casa</p>
                     <img src={icono3} alt="Un ticket aprobando la Venta de tu Casa" loading="lazy" decoding="async" />
                 </div>
             </div>

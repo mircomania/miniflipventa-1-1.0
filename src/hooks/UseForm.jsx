@@ -6,7 +6,7 @@ export const useForm = (initialState, submitCallback) => {
     const [errors, setErrors] = useState({});
     const [loading, setLoading] = useState(false);
 
-    const casas = ['tipo de casa', 'casa 1', 'casa 2', 'casa 3', 'casa 4', 'casa 5'];
+    const casas = ['tipo de casa', 'una planta', 'dos plantas', 'tres plantas', 'departamento', 'terreno'];
 
     const showAlert = (title, message, icon, color) => {
         Swal.fire({
