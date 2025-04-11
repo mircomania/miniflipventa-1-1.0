@@ -95,7 +95,7 @@ export const useForm = (initialState, submitCallback) => {
                 casa: formData.casa,
             };
 
-            const response = await fetch('http://localhost:5000/submit', {
+            const response = await fetch('/miniflipventa/backend/submit.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formDataToSend),
